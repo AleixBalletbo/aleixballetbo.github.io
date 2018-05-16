@@ -118,8 +118,14 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "select"
+          label: "Category"
+          placeholder: "Choose Category"
+          options:
+          	- name: "Blog"
+          	  value: "blog"
+          	- name: "Project"
+              value: "project"
       - name: "tags"
         field:
           element: "multiselect"
