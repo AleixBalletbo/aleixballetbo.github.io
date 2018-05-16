@@ -173,6 +173,10 @@ prose:
           element: "checkbox"
           label: "Should be hidden?"
           value: false
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
     _posts/projects:
       - name: "title"
         field:
@@ -232,6 +236,10 @@ prose:
           label: "Should be hidden?"
           value: false
       - name: "projects"
+        field:
+          element: "hidden"
+          value: true
+      - name: "published"
         field:
           element: "hidden"
           value: true
