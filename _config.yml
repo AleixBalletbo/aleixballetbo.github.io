@@ -103,3 +103,42 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+    
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://aleixballetbo.github.io'
+  relativeLinks: 'http://aleixballetbo.github.io/links.jsonp'
+  media: 'assets/images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Software engineering"
+              value: "Software engineering"
+            - name: "Tutorial"
+              value: "Tutorial"
+            - name: "Technology"
+              value: "Technology"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
