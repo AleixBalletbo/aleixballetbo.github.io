@@ -1,16 +1,18 @@
 ---
-title: "Markdown Common Elements"
-layout: post
-date: 2016-02-24 22:44
-image: /assets/images/markdown.jpg
-headerImage: false
-tag:
-- markdown
-- elements
-star: true
-category: blog
 author: johndoe
+category: blog
+date: '2016-02-24 22:44'
+layout: post
+title: Markdown Common Elements
+image: /assets/images/markdown.jpg
+headerImage: true
+tag:
+  - markdown
+  - elements
+star: false
 description: Markdown summary with different options
+published: true
+hidden: false
 ---
 
 ## Summary:
