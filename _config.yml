@@ -124,9 +124,9 @@ prose:
           label: "Category"
           placeholder: "Choose Category"
           options:
-          	- name: "Blog"
+            - name: "Blog"
           	  value: "blog"
-          	- name: "Project"
+            - name: "Project"
               value: "project"
       - name: "tags"
         field:
