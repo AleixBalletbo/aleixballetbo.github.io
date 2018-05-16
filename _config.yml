@@ -125,7 +125,7 @@ prose:
           placeholder: "Choose Category"
           options:
             - name: "Blog"
-          	  value: "blog"
+              value: "blog"
             - name: "Project"
               value: "project"
       - name: "tags"
