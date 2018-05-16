@@ -120,6 +120,10 @@ prose:
     _posts:
       - name: "layout"
         field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
           element: "select"
           label: "Category"
           placeholder: "Choose Category"
