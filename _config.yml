@@ -132,7 +132,7 @@ prose:
               value: "blog"
             - name: "Project"
               value: "project"
-      - name: "tags"
+      - name: "tag"
         field:
           element: "multiselect"
           label: "Add Tags"
