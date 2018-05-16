@@ -119,7 +119,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
       - name: "layout"
         field:
           element: "hidden"
@@ -131,7 +131,7 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "image path"
+          label: "Header image path"
           value: "assets/image"
       - name: "headerImage"
         field:
@@ -167,7 +167,7 @@ prose:
       - name: "description"
         field:
           element: "text"
-          label: "description"
+          label: "Description"
       - name: "hidden"
         field:
           element: "checkbox"
@@ -177,7 +177,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
       - name: "layout"
         field:
           element: "hidden"
@@ -189,7 +189,7 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "image path"
+          label: "Header image path"
           value: "assets/image"
       - name: "headerImage"
         field:
@@ -225,7 +225,7 @@ prose:
       - name: "description"
         field:
           element: "text"
-          label: "description"
+          label: "Description"
       - name: "hidden"
         field:
           element: "checkbox"
